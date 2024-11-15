@@ -1,0 +1,225 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: calibri;
+    background: #80AF81;
+}
+
+p {
+    font-size: 25px;
+    margin-bottom: 40px;
+    text-align: justify;
+}
+h1 {
+    margin-bottom: 10px;
+}
+
+header {
+    background: #006400;
+    color: white;
+    padding: 15px;
+    text-align: center;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.page-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header a i {
+    color: white;
+}
+
+footer {
+    background: #006400;
+    color: white;
+    padding: 15px;
+    text-align: center;
+    font-size: 25px;
+}
+
+#home1 {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 80px;
+    padding: 50px;
+    margin-bottom: 35px;
+    flex-wrap: wrap;
+}
+
+.legend-card {
+    width: 250px;
+    text-align: center;
+    border: 2px solid #006400;
+    border-radius: 10px;
+    padding: 20px;
+    background: #b8d4ba;
+}
+
+.card-img {
+    width: 200px;
+    height: 200px;
+    border-radius: 10px;
+}
+
+.card-btn {
+    margin: 15px;
+    padding: 10px 15px;
+    border-radius: 50px;
+    background: #006400;
+    color: white;
+    font-size: 15px;
+    border: none;
+    transition: 0.5s;
+}
+
+.card-btn:hover {
+    cursor: pointer;
+    background: #1A5319;
+    transition: 0.5s;
+    padding: 10px 30px;
+}
+
+.legend-card i {
+    size: 15px;
+    margin-left: 7px;
+}
+
+/* Jinnah's Page */
+
+#jinnah-1 {
+    background-image: url(Images/Quaid-1.jfif);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 240vh;
+    opacity: 0.2;
+    position: relative;
+}
+
+#iqbal-1 {
+    background-image: url(Images/Iqbal-1.jfif);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 235vh;
+    opacity: 0.2;
+    position: relative;
+}
+
+#liaquat-1 {
+    background-image: url(Images/Liquat-1.jfif);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 265vh;
+    opacity: 0.2;
+    position: relative;
+}
+
+#fatima-1 {
+    background-image: url(Images/Fatima-1.jfif);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 265vh;
+    opacity: 0.2;
+    position: relative;
+}
+
+#rahmat-1 {
+    background-image: url(Images/Rahmat-1.jpeg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 280vh;
+    opacity: 0.2;
+    position: relative;
+}
+
+#jinnah1-sub {
+    position: absolute;
+    margin: 80px;
+    padding: 50px;
+    height: 230vh;
+    top: 50px;
+    left: 50px;
+    right: 50px;
+    bottom: 50px;
+}
+
+.first-words {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+@media (max-width: 480px) {
+    p {
+        font-size: 15px;
+        margin-bottom: 30px;
+    }
+    .page-header {
+        font-size: 15px;
+    }
+    footer {
+        font-size: 17px;
+    }
+    .first-words {
+        font-size: 18px;
+    }
+    h1 {
+        font-size: 22px;
+    }
+    #home1 {
+        margin: 10px;
+
+    }
+    #jinnah-1 {
+        height: 230vh;
+        background-position: 43% 30%;
+    }
+    #iqbal-1 {
+        height: 230vh;
+        background-position: 43% 30%;
+    }
+    #liaquat-1 {
+        height: 250vh;
+    }
+    #fatima-1 {
+        height: 260vh;
+        background-position: 43% 30%;
+    }
+    #rahmat-1 {
+        height: 270vh;
+        background-position: 40% 30%;
+    }
+    #jinnah1-sub {
+        margin: 20px;
+        padding: 20px;
+    }
+}
+
+@media (max-width: 768px) {
+    #jinnah-1 {
+        height: 420vh;
+    }
+    #iqbal-1 {
+        height: 370vh;
+    }
+    #liaquat-1 {
+        height: 480vh;
+    }
+    #fatima-1 {
+        height: 480vh;
+    }
+    #rahmat-1 {
+        height: 500vh;
+    }
+}
