@@ -1,0 +1,10 @@
+{
+    "rewrites": [
+      { "source": "/", "destination": "/Home.html" },
+      { "source": "/Jinnah", "destination": "/Jinnah.html" },
+      { "source": "/Iqbal", "destination": "/Iqbal.html" },
+      { "source": "/Liaquat", "destination": "/Liaquat.html" },
+      { "source": "/Fatima", "destination": "/Fatima.html" },
+      { "source": "/Rahmat", "destination": "/Rahmat.html" }
+    ]
+  }
