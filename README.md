@@ -19,5 +19,5 @@ This website is designed to educate and inspire visitors about Pakistan’s rema
 - **Home Page**: Displays names of all leaders; users can click to view each leader’s profile.
 - **Individual Pages**: Each leader has a dedicated page with their biography, key life aspects, sacrifices, role in the independence movement, and impact on Pakistan.
 
-- ## Contributing
+## Contributing
 Contributions are welcome! Please fork the repository and make a pull request for any suggestions or improvements.
